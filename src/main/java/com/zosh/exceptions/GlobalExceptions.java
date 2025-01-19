@@ -15,6 +15,7 @@ public class GlobalExceptions {
 	 * Exception ue -> class for that want to write handler
 	 * Exception.class -> class for that want to write handler
 	 */
+	
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ErrorDetails> otherExceptionHandler(Exception ue, WebRequest req){
 		
